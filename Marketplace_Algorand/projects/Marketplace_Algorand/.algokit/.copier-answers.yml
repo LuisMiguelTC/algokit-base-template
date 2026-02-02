@@ -1,0 +1,10 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 1.8.1
+_src_path: gh:algorandfoundation/algokit-python-template
+author_email: 146362649+LuisMiguelTC@users.noreply.github.com
+author_name: LuisMiguelTC
+contract_name: marketplace
+deployment_language: python
+preset_name: production
+project_name: Marketplace_Algorand
+
