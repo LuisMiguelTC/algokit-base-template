@@ -3,7 +3,11 @@
   "sources": [
     "../../marketplace/contract.py"
   ],
+<<<<<<< HEAD
   "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAUA;;;;;;AAAA;;;AAAA;;;;AAAA;;AAAA;AAAA;AAAA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;AAAA;AAAA;;;;;;AAAA;;;AAAA;;;;AAAA;AAqJK;;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;;;AAxIG;AAAe;;AAAf;AACA;AAAmB;;;AAAnB;AACA;AAAuB;AAAvB;AALH;AAAA;AAQA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAGG;AAAA;AAEO;AAAA;;AAAA;AAAA;;AAAkB;;;;AAAlB;AAAP;AAEO;AAAA;;AAAkB;;AAAlB;AAAP;AAEO;;AAAoB;;AAApB;AAAP;AAG+B;AAAA;AAAA;AAAA;;AAApB;AAAA;;AAAJ;AAAP;AAGO;;AAAA;AAAA;;AAAA;;AAAJ;;;AACC;AAEmB;;AACF;;;;;;;;;AAHjB;;;AAIS;;;AAJT;AASM;;AADa;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAvB;;AAAA;AAAA;AAKA;AAAA;AAAA;AAAA;AAAwB;AAAxB;AAAA;AAAA;AAAA;AA7BH;AAAA;AAgCA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAMc;AAAA;;AAGH;;AAAA;;AAAwB;;AAAxB;AAAR;AAG2B;AAAA;AAApB;AAAA;AAAA;;AAAP;AAGO;;AAAA;;AAAP;AAGO;;AAAA;;AAAgB;AAAA;AAAA;AAAA;;;AAAhB;AAAP;AAI+B;;AAAxB;AAAA;;AAAA;AAtBV;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAyBA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAG8B;;AAAA;AAApB;AAAA;AAAA;;AAAP;AAEA;;AAAA;AAGgC;;AAAxB;;AAAA;;AAAA;AAAA;;AAAA;AAAR;AAEkB;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AACX;;AAAA;;AAAoB;;AAApB;AAAP;AAEO;;AAAA;;AAAA;;AAAA;AAAP;AAEO;;AAAA;;AAAsB;;AAAtB;AAAP;AAGyB;AAAA;AAAA;AAAA;AAAlB;;AAAA;AAAmC;AAAA;AAAA;AAAA;AAApC;AAAA;AAAA;;AACU;AAAA;;AAAA;AAGhB;AACa;;AAAA;;;;;;;AADb;;;AAGQ;;;AAHR;AAOR;;;AACY;AACa;;;;;;;;AADb;;;AAGQ;;;AAHR;AAOJ;AAEmB;;;;;;;;;;;;AAFnB;;;AAAA;;;AAAA;AArCH;AAAA;AA2CA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAG8B;AAAA;AAApB;AAAA;AAAA;;AAAP;AAEO;;AAAc;;AAAA;AAAA;AAAA;AAAA;;;AAAd;;AAAA;;AAAA;AAAP;AAE2C;;AAAxB;;AAAA;;AAAA;AAKnB;;;;;;;;;;;;;;AAAA;;;AAKQ;;;AALR;AAQA;AAEW;AAAA;;AAAA;;;;;AAFX;;;AAGQ;;;AAHR;AAOA;;AAEA;AAAA;AAAA;AAAA;AAAwB;AAAxB;AAAA;AAAA;AAAA;AA7BH;AAAA;AAkCU;;AAAc;;AAAd;AAAP;AAEO;AAAA;AAAA;AAAA;AAAA;AAAP;AAGA;AACa;;AACU;AACZ;;;;;;;AAHX;;;AAIQ;;;AAJR;AARH;AAAA",
+=======
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AASA;;;;;;AAAA;;;AAAA;;;;AAAA;;AAAA;AAAA;AAAA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;AAAA;AAAA;;;;;;AAAA;;;AAAA;;;;AAAA;AA8IK;;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;;;AAjIG;AAAe;;AAAf;AACA;AAAmB;;;AAAnB;AACA;AAAuB;AAAvB;AALH;AAAA;AAQA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAGG;AAAA;AAEO;AAAA;;AAAkB;;;;AAAlB;AAAP;AAEO;AAAA;;AAAkB;;AAAlB;AAAP;AAEO;;AAAoB;;AAApB;AAAP;AAG+B;AAAA;AAAA;AAAA;;AAApB;AAAA;;AAAJ;AAAP;AAGO;;AAAA;AAAA;;AAAA;;AAAJ;;;AACC;AAEmB;;AACF;;;;;;;;;AAHjB;;;AAIS;;;AAJT;AASM;;AADa;;AAAA;AAAA;AAAvB;;AAAA;AAAA;AAIA;AAAA;AAAA;AAAA;AAAwB;AAAxB;AAAA;AAAA;AAAA;AA5BH;AAAA;AA+BA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAMc;AAAA;;AAGH;;AAAA;;AAAwB;;AAAxB;AAAR;AAG2B;AAAA;AAApB;AAAA;AAAA;;AAAP;AAGO;;AAAA;;AAAP;AAGO;;AAAA;;AAAgB;AAAA;AAAA;AAAA;;;AAAhB;AAAP;AAI+B;;AAAxB;AAAA;;AAAA;AAtBV;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAyBA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAG8B;;AAAA;AAApB;AAAA;AAAA;;AAAP;AAEA;;AAAA;AAGgC;;AAAxB;;AAAA;;AAAA;AAAA;;AAAA;AAAR;AAEkB;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AACX;;AAAA;;AAAoB;;AAApB;AAAP;AAEO;;AAAA;;AAAA;;AAAA;AAAP;AAEO;;AAAA;;AAAsB;;AAAtB;AAAP;AAGyB;AAAA;AAAA;AAAA;AAAlB;;AAAA;AAAmC;AAAA;AAAA;AAAA;AAApC;AAAA;AAAA;;AACU;AAAA;;AAAA;AAGhB;AACa;;AAAA;;;;;;;AADb;;;AAGQ;;;AAHR;AAOR;;;AACY;AACa;;;;;;;;AADb;;;AAGQ;;;AAHR;AAOJ;AAEmB;;;;;;;;;;;;AAFnB;;;AAAA;;;AAAA;AArCH;AAAA;AA2CA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAG8B;AAAA;AAApB;AAAA;AAAA;;AAAP;AAEO;;AAAc;;AAAA;AAAA;AAAA;;;AAAd;AAAA;;AAAA;AAAP;AAE2C;;AAAxB;;AAAA;;AAAA;AAKnB;;;;;;;;;;;;AAAA;;;AAKQ;;;AALR;AASA;;AAEA;AAAA;AAAA;AAAA;AAAwB;AAAxB;AAAA;AAAA;AAAA;AAvBH;AAAA;AA4BU;;AAAc;;AAAd;AAAP;AAEO;AAAA;AAAA;AAAA;AAAA;AAAP;AAGA;AACa;;AACU;AACZ;;;;;;;AAHX;;;AAIQ;;;AAJR;AARH;AAAA",
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -659,6 +663,7 @@
       ]
     },
     "180": {
+<<<<<<< HEAD
       "op": "dup",
       "stack_out": [
         "asset#0",
@@ -687,6 +692,8 @@
       ]
     },
     "183": {
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "pushint 100000",
       "defined_out": [
         "100000",
@@ -698,211 +705,360 @@
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "asset#0",
         "mbr_pay#0",
         "tmp%1#1",
         "100000"
       ]
     },
+<<<<<<< HEAD
     "187": {
+=======
+    "184": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": ">=",
       "defined_out": [
         "asset#0",
         "mbr_pay#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "tmp%2#1"
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "asset#0",
         "mbr_pay#0",
         "tmp%2#1"
       ]
     },
+<<<<<<< HEAD
     "188": {
+=======
+    "185": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "Pagamento MBR insufficiente",
       "op": "assert // Pagamento MBR insufficiente",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "asset#0",
         "mbr_pay#0"
       ]
     },
+<<<<<<< HEAD
     "189": {
+=======
+    "186": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "asset#0",
         "mbr_pay#0",
         "mbr_pay#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "190": {
+=======
+    "187": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "gtxns Sender",
       "defined_out": [
         "asset#0",
         "mbr_pay#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "tmp%3#1"
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "asset#0",
         "mbr_pay#0",
         "tmp%3#1"
       ]
     },
+<<<<<<< HEAD
     "192": {
+=======
+    "189": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "txn Sender",
       "defined_out": [
         "asset#0",
         "mbr_pay#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "tmp%3#1",
         "tmp%4#1"
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "asset#0",
         "mbr_pay#0",
         "tmp%3#1",
         "tmp%4#1"
       ]
     },
+<<<<<<< HEAD
     "194": {
+=======
+    "191": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "==",
       "defined_out": [
         "asset#0",
         "mbr_pay#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "tmp%5#0"
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "asset#0",
         "mbr_pay#0",
         "tmp%5#0"
       ]
     },
+<<<<<<< HEAD
     "195": {
+=======
+    "192": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "assert",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "asset#0",
         "mbr_pay#0"
       ]
     },
+<<<<<<< HEAD
     "196": {
+=======
+    "193": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "gtxns Receiver",
       "defined_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "tmp%6#0"
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "asset#0",
         "tmp%6#0"
       ]
     },
+<<<<<<< HEAD
     "198": {
+=======
+    "195": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "tmp%6#0",
         "tmp%7#0"
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "asset#0",
         "tmp%6#0",
         "tmp%7#0"
       ]
     },
+<<<<<<< HEAD
     "200": {
+=======
+    "197": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "==",
       "defined_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "tmp%8#0"
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "asset#0",
         "tmp%8#0"
       ]
     },
+<<<<<<< HEAD
     "201": {
+=======
+    "198": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "assert",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
         "asset#0"
       ]
     },
     "202": {
+=======
+        "asset#0"
+      ]
+    },
+    "199": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "defined_out": [
         "asset#0",
         "asset#0 (copy)",
+<<<<<<< HEAD
         "price#0",
         "tmp%1#1"
+=======
+        "price#0"
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "asset#0",
         "asset#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "203": {
+=======
+    "200": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itob",
       "defined_out": [
         "asset#0",
         "encoded_value%0#0",
+<<<<<<< HEAD
         "price#0",
         "tmp%1#1"
+=======
+        "price#0"
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+        "asset#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "201": {
+      "op": "dup",
+      "stack_out": [
+        "asset#0",
+        "price#0",
+        "asset#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "202": {
+      "op": "cover 2",
+      "defined_out": [
+        "asset#0",
+        "encoded_value%0#0",
+        "price#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "price#0",
+        "encoded_value%0#0",
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "asset#0",
         "encoded_value%0#0"
       ]
     },
     "204": {
+<<<<<<< HEAD
       "op": "dup",
       "stack_out": [
         "asset#0",
@@ -931,128 +1087,200 @@
       ]
     },
     "207": {
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "box_len",
       "defined_out": [
         "asset#0",
         "encoded_value%0#0",
         "maybe_exists%0#0",
         "maybe_value%0#0",
+<<<<<<< HEAD
         "price#0",
         "tmp%1#1"
+=======
+        "price#0"
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "asset#0",
         "maybe_value%0#0",
         "maybe_exists%0#0"
       ]
     },
+<<<<<<< HEAD
     "208": {
+=======
+    "205": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "bury 1",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "asset#0",
         "maybe_exists%0#0"
       ]
     },
+<<<<<<< HEAD
     "210": {
+=======
+    "207": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "!",
       "defined_out": [
         "asset#0",
         "encoded_value%0#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "tmp%9#0"
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "asset#0",
         "tmp%9#0"
       ]
     },
+<<<<<<< HEAD
     "211": {
+=======
+    "208": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "Asset gi\u00e0 listato",
       "op": "assert // Asset gi\u00e0 listato",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "asset#0"
       ]
     },
+<<<<<<< HEAD
     "212": {
+=======
+    "209": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "asset#0",
         "encoded_value%0#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "tmp%10#0"
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "asset#0",
         "tmp%10#0"
       ]
     },
+<<<<<<< HEAD
     "214": {
+=======
+    "211": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "swap",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "tmp%10#0",
         "asset#0"
       ]
     },
+<<<<<<< HEAD
     "215": {
+=======
+    "212": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "asset#0",
         "encoded_value%0#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "tmp%11#0",
         "tmp%12#0"
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "tmp%11#0",
         "tmp%12#0"
       ]
     },
+<<<<<<< HEAD
     "217": {
+=======
+    "214": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "bury 1",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "tmp%12#0"
       ]
     },
+<<<<<<< HEAD
     "219": {
+=======
+    "216": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "bnz list_asset_after_if_else@4",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
         "encoded_value%0#0"
       ]
@@ -1061,48 +1289,83 @@
       "op": "itxn_begin"
     },
     "223": {
+=======
+        "encoded_value%0#0"
+      ]
+    },
+    "219": {
+      "op": "itxn_begin"
+    },
+    "220": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "asset#0",
         "encoded_value%0#0",
         "inner_txn_params%0%%param_AssetReceiver_idx_0#0",
+<<<<<<< HEAD
         "price#0",
         "tmp%1#1"
+=======
+        "price#0"
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
       ]
     },
+<<<<<<< HEAD
     "225": {
+=======
+    "222": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_1 // 0",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "inner_txn_params%0%%param_AssetReceiver_idx_0#0",
         "0"
       ]
     },
+<<<<<<< HEAD
     "226": {
+=======
+    "223": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field AssetAmount",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
       ]
     },
+<<<<<<< HEAD
     "228": {
+=======
+    "225": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field AssetReceiver",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
         "encoded_value%0#0"
       ]
@@ -1113,60 +1376,107 @@
         "asset#0",
         "price#0",
         "tmp%1#1",
+=======
+        "encoded_value%0#0"
+      ]
+    },
+    "227": {
+      "op": "dig 2",
+      "stack_out": [
+        "asset#0",
+        "price#0",
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "asset#0"
       ]
     },
+<<<<<<< HEAD
     "232": {
+=======
+    "229": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field XferAsset",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
         "encoded_value%0#0"
       ]
     },
     "234": {
+=======
+        "encoded_value%0#0"
+      ]
+    },
+    "231": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_3 // axfer",
       "defined_out": [
         "asset#0",
         "axfer",
         "encoded_value%0#0",
+<<<<<<< HEAD
         "price#0",
         "tmp%1#1"
+=======
+        "price#0"
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "axfer"
       ]
     },
+<<<<<<< HEAD
     "235": {
+=======
+    "232": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
         "encoded_value%0#0"
       ]
     },
     "237": {
+=======
+        "encoded_value%0#0"
+      ]
+    },
+    "234": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_1 // 0",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "0"
       ]
     },
+<<<<<<< HEAD
     "238": {
+=======
+    "235": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field Fee",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
         "encoded_value%0#0"
       ]
@@ -1175,11 +1485,23 @@
       "op": "itxn_submit"
     },
     "241": {
+=======
+        "encoded_value%0#0"
+      ]
+    },
+    "237": {
+      "op": "itxn_submit"
+    },
+    "238": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "block": "list_asset_after_if_else@4",
       "stack_in": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0"
       ],
       "op": "txn Sender",
@@ -1189,13 +1511,21 @@
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "tmp%13#0"
       ]
     },
+<<<<<<< HEAD
     "243": {
       "op": "dig 3",
+=======
+    "240": {
+      "op": "dig 2",
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "defined_out": [
         "price#0",
         "tmp%13#0"
@@ -1203,13 +1533,20 @@
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "tmp%13#0",
         "price#0"
       ]
     },
+<<<<<<< HEAD
     "245": {
+=======
+    "242": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0",
@@ -1219,13 +1556,20 @@
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "tmp%13#0",
         "aggregate%val_as_bytes%0#0"
       ]
     },
+<<<<<<< HEAD
     "246": {
+=======
+    "243": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "concat",
       "defined_out": [
         "aggregate%head%1#0",
@@ -1234,12 +1578,41 @@
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+        "encoded_value%0#0",
+        "aggregate%head%1#0"
+      ]
+    },
+    "244": {
+      "op": "dig 1",
+      "defined_out": [
+        "aggregate%head%1#0",
+        "encoded_value%0#0",
+        "price#0"
+      ],
+      "stack_out": [
+        "asset#0",
+        "price#0",
+        "encoded_value%0#0",
+        "aggregate%head%1#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "246": {
+      "op": "swap",
+      "stack_out": [
+        "asset#0",
+        "price#0",
+        "encoded_value%0#0",
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "aggregate%head%1#0"
       ]
     },
     "247": {
+<<<<<<< HEAD
       "op": "dig 2",
       "defined_out": [
         "aggregate%head%1#0",
@@ -1316,116 +1689,189 @@
       ]
     },
     "254": {
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "box_put",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
         "encoded_value%0#0"
       ]
     },
     "255": {
+=======
+        "encoded_value%0#0"
+      ]
+    },
+    "248": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
         "encoded_value%0#0",
+<<<<<<< HEAD
         "price#0",
         "tmp%1#1"
+=======
+        "price#0"
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "0"
       ]
     },
+<<<<<<< HEAD
     "256": {
+=======
+    "249": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "bytec_0 // \"active_listings\"",
       "defined_out": [
         "\"active_listings\"",
         "0",
         "encoded_value%0#0",
+<<<<<<< HEAD
         "price#0",
         "tmp%1#1"
+=======
+        "price#0"
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "0",
         "\"active_listings\""
       ]
     },
+<<<<<<< HEAD
     "257": {
+=======
+    "250": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "app_global_get_ex",
       "defined_out": [
         "encoded_value%0#0",
         "maybe_exists%1#0",
         "maybe_value%1#0",
+<<<<<<< HEAD
         "price#0",
         "tmp%1#1"
+=======
+        "price#0"
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "maybe_value%1#0",
         "maybe_exists%1#0"
       ]
     },
+<<<<<<< HEAD
     "258": {
+=======
+    "251": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "check self.active_listings exists",
       "op": "assert // check self.active_listings exists",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "maybe_value%1#0"
       ]
     },
+<<<<<<< HEAD
     "259": {
+=======
+    "252": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
         "encoded_value%0#0",
         "maybe_value%1#0",
+<<<<<<< HEAD
         "price#0",
         "tmp%1#1"
+=======
+        "price#0"
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "maybe_value%1#0",
         "1"
       ]
     },
+<<<<<<< HEAD
     "260": {
+=======
+    "253": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "+",
       "defined_out": [
         "encoded_value%0#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
         "tmp%16#0"
+=======
+        "tmp%15#0"
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       ],
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
         "encoded_value%0#0",
         "tmp%16#0"
       ]
     },
     "261": {
+=======
+        "encoded_value%0#0",
+        "tmp%15#0"
+      ]
+    },
+    "254": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "bytec_0 // \"active_listings\"",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
         "encoded_value%0#0",
         "tmp%16#0",
@@ -1433,10 +1879,19 @@
       ]
     },
     "262": {
+=======
+        "encoded_value%0#0",
+        "tmp%15#0",
+        "\"active_listings\""
+      ]
+    },
+    "255": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "swap",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
         "encoded_value%0#0",
         "\"active_listings\"",
@@ -1444,34 +1899,63 @@
       ]
     },
     "263": {
+=======
+        "encoded_value%0#0",
+        "\"active_listings\"",
+        "tmp%15#0"
+      ]
+    },
+    "256": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "app_global_put",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
         "encoded_value%0#0"
       ]
     },
     "264": {
+=======
+        "encoded_value%0#0"
+      ]
+    },
+    "257": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_0 // 1",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0",
         "1"
       ]
     },
+<<<<<<< HEAD
     "265": {
+=======
+    "258": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "return",
       "stack_out": [
         "asset#0",
         "price#0",
+<<<<<<< HEAD
         "tmp%1#1",
         "encoded_value%0#0"
       ]
     },
     "266": {
+=======
+        "encoded_value%0#0"
+      ]
+    },
+    "259": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "subroutine": "smart_contracts.marketplace.contract.Marketplace.deposit_asset[routing]",
       "params": {},
       "block": "deposit_asset",
@@ -1484,7 +1968,11 @@
         "tmp%0#0"
       ]
     },
+<<<<<<< HEAD
     "268": {
+=======
+    "261": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1495,7 +1983,11 @@
         "1"
       ]
     },
+<<<<<<< HEAD
     "269": {
+=======
+    "262": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "-",
       "defined_out": [
         "axfer#0"
@@ -1504,7 +1996,11 @@
         "axfer#0"
       ]
     },
+<<<<<<< HEAD
     "270": {
+=======
+    "263": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "defined_out": [
         "axfer#0",
@@ -1515,7 +2011,11 @@
         "axfer#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "271": {
+=======
+    "264": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "gtxns TypeEnum",
       "defined_out": [
         "axfer#0",
@@ -1526,7 +2026,11 @@
         "gtxn_type%0#0"
       ]
     },
+<<<<<<< HEAD
     "273": {
+=======
+    "266": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_3 // axfer",
       "defined_out": [
         "axfer",
@@ -1539,7 +2043,11 @@
         "axfer"
       ]
     },
+<<<<<<< HEAD
     "274": {
+=======
+    "267": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "==",
       "defined_out": [
         "axfer#0",
@@ -1550,21 +2058,33 @@
         "gtxn_type_matches%0#0"
       ]
     },
+<<<<<<< HEAD
     "275": {
+=======
+    "268": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "transaction type is axfer",
       "op": "assert // transaction type is axfer",
       "stack_out": [
         "axfer#0"
       ]
     },
+<<<<<<< HEAD
     "276": {
+=======
+    "269": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "stack_out": [
         "axfer#0",
         "axfer#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "277": {
+=======
+    "270": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "gtxns XferAsset",
       "defined_out": [
         "asset_id#0",
@@ -1575,7 +2095,11 @@
         "asset_id#0"
       ]
     },
+<<<<<<< HEAD
     "279": {
+=======
+    "272": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 1",
       "stack_out": [
         "axfer#0",
@@ -1583,7 +2107,11 @@
         "axfer#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "281": {
+=======
+    "274": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "gtxns AssetReceiver",
       "defined_out": [
         "asset_id#0",
@@ -1596,7 +2124,11 @@
         "tmp%1#1"
       ]
     },
+<<<<<<< HEAD
     "283": {
+=======
+    "276": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "asset_id#0",
@@ -1611,7 +2143,11 @@
         "tmp%2#1"
       ]
     },
+<<<<<<< HEAD
     "285": {
+=======
+    "278": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "==",
       "defined_out": [
         "asset_id#0",
@@ -1624,7 +2160,11 @@
         "tmp%3#1"
       ]
     },
+<<<<<<< HEAD
     "286": {
+=======
+    "279": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "Il ricevente deve essere il contratto",
       "op": "assert // Il ricevente deve essere il contratto",
       "stack_out": [
@@ -1632,7 +2172,11 @@
         "asset_id#0"
       ]
     },
+<<<<<<< HEAD
     "287": {
+=======
+    "280": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "defined_out": [
         "asset_id#0",
@@ -1645,7 +2189,11 @@
         "asset_id#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "288": {
+=======
+    "281": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itob",
       "defined_out": [
         "asset_id#0",
@@ -1658,7 +2206,11 @@
         "encoded_value%0#0"
       ]
     },
+<<<<<<< HEAD
     "289": {
+=======
+    "282": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "defined_out": [
         "asset_id#0",
@@ -1673,7 +2225,11 @@
         "encoded_value%0#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "290": {
+=======
+    "283": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "box_len",
       "defined_out": [
         "asset_id#0",
@@ -1690,7 +2246,11 @@
         "maybe_exists%0#0"
       ]
     },
+<<<<<<< HEAD
     "291": {
+=======
+    "284": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "bury 1",
       "stack_out": [
         "axfer#0",
@@ -1699,7 +2259,11 @@
         "maybe_exists%0#0"
       ]
     },
+<<<<<<< HEAD
     "293": {
+=======
+    "286": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "Asset non listato",
       "op": "assert // Asset non listato",
       "stack_out": [
@@ -1708,7 +2272,11 @@
         "encoded_value%0#0"
       ]
     },
+<<<<<<< HEAD
     "294": {
+=======
+    "287": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 2",
       "stack_out": [
         "axfer#0",
@@ -1717,7 +2285,11 @@
         "axfer#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "296": {
+=======
+    "289": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "gtxns AssetAmount",
       "defined_out": [
         "asset_id#0",
@@ -1732,7 +2304,11 @@
         "tmp%4#0"
       ]
     },
+<<<<<<< HEAD
     "298": {
+=======
+    "291": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "La quantita deve essere maggiore di zero",
       "op": "assert // La quantita deve essere maggiore di zero",
       "stack_out": [
@@ -1741,7 +2317,11 @@
         "encoded_value%0#0"
       ]
     },
+<<<<<<< HEAD
     "299": {
+=======
+    "292": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "uncover 2",
       "stack_out": [
         "asset_id#0",
@@ -1749,7 +2329,11 @@
         "axfer#0"
       ]
     },
+<<<<<<< HEAD
     "301": {
+=======
+    "294": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "gtxns Sender",
       "defined_out": [
         "asset_id#0",
@@ -1762,7 +2346,11 @@
         "tmp%6#0"
       ]
     },
+<<<<<<< HEAD
     "303": {
+=======
+    "296": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "swap",
       "stack_out": [
         "asset_id#0",
@@ -1770,7 +2358,11 @@
         "encoded_value%0#0"
       ]
     },
+<<<<<<< HEAD
     "304": {
+=======
+    "297": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "box_get",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -1785,7 +2377,11 @@
         "aggregate%box_get%1#0"
       ]
     },
+<<<<<<< HEAD
     "305": {
+=======
+    "298": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "pop",
       "stack_out": [
         "asset_id#0",
@@ -1793,7 +2389,11 @@
         "aggregate%box_get%0#0"
       ]
     },
+<<<<<<< HEAD
     "306": {
+=======
+    "299": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "extract 0 32",
       "defined_out": [
         "aggregate%extract%0#0",
@@ -1806,7 +2406,11 @@
         "aggregate%extract%0#0"
       ]
     },
+<<<<<<< HEAD
     "309": {
+=======
+    "302": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "==",
       "defined_out": [
         "asset_id#0",
@@ -1817,14 +2421,22 @@
         "tmp%7#0"
       ]
     },
+<<<<<<< HEAD
     "310": {
+=======
+    "303": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "Solo il proprietario pu\u00f2 depositare",
       "op": "assert // Solo il proprietario pu\u00f2 depositare",
       "stack_out": [
         "asset_id#0"
       ]
     },
+<<<<<<< HEAD
     "311": {
+=======
+    "304": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "asset_id#0",
@@ -1835,14 +2447,22 @@
         "tmp%8#0"
       ]
     },
+<<<<<<< HEAD
     "313": {
+=======
+    "306": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "swap",
       "stack_out": [
         "tmp%8#0",
         "asset_id#0"
       ]
     },
+<<<<<<< HEAD
     "314": {
+=======
+    "307": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "check%0#0",
@@ -1853,14 +2473,22 @@
         "check%0#0"
       ]
     },
+<<<<<<< HEAD
     "316": {
+=======
+    "309": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "account opted into asset",
       "op": "assert // account opted into asset",
       "stack_out": [
         "value%0#0"
       ]
     },
+<<<<<<< HEAD
     "317": {
+=======
+    "310": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0"
@@ -1869,7 +2497,11 @@
         "aggregate%val_as_bytes%0#0"
       ]
     },
+<<<<<<< HEAD
     "318": {
+=======
+    "311": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "pushbytes 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -1880,14 +2512,22 @@
         "0x151f7c75"
       ]
     },
+<<<<<<< HEAD
     "324": {
+=======
+    "317": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "swap",
       "stack_out": [
         "0x151f7c75",
         "aggregate%val_as_bytes%0#0"
       ]
     },
+<<<<<<< HEAD
     "325": {
+=======
+    "318": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "concat",
       "defined_out": [
         "tmp%3#0"
@@ -1896,21 +2536,37 @@
         "tmp%3#0"
       ]
     },
+<<<<<<< HEAD
     "326": {
       "op": "log",
       "stack_out": []
     },
     "327": {
+=======
+    "319": {
+      "op": "log",
+      "stack_out": []
+    },
+    "320": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_0 // 1",
       "stack_out": [
         "1"
       ]
     },
+<<<<<<< HEAD
     "328": {
       "op": "return",
       "stack_out": []
     },
     "329": {
+=======
+    "321": {
+      "op": "return",
+      "stack_out": []
+    },
+    "322": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "subroutine": "smart_contracts.marketplace.contract.Marketplace.buy_asset[routing]",
       "params": {},
       "block": "buy_asset",
@@ -1923,7 +2579,11 @@
         "tmp%0#0"
       ]
     },
+<<<<<<< HEAD
     "332": {
+=======
+    "325": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
@@ -1934,7 +2594,11 @@
         "tmp%0#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "333": {
+=======
+    "326": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -1945,7 +2609,11 @@
         "len%0#0"
       ]
     },
+<<<<<<< HEAD
     "334": {
+=======
+    "327": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -1958,7 +2626,11 @@
         "8"
       ]
     },
+<<<<<<< HEAD
     "335": {
+=======
+    "328": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -1969,14 +2641,22 @@
         "eq%0#0"
       ]
     },
+<<<<<<< HEAD
     "336": {
+=======
+    "329": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
         "tmp%0#0"
       ]
     },
+<<<<<<< HEAD
     "337": {
+=======
+    "330": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "btoi",
       "defined_out": [
         "asset_id#0"
@@ -1985,7 +2665,11 @@
         "asset_id#0"
       ]
     },
+<<<<<<< HEAD
     "338": {
+=======
+    "331": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "defined_out": [
         "asset_id#0"
@@ -1995,7 +2679,11 @@
         "asset_id#0"
       ]
     },
+<<<<<<< HEAD
     "339": {
+=======
+    "332": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "txna ApplicationArgs 2",
       "defined_out": [
         "asset_id#0",
@@ -2007,7 +2695,11 @@
         "tmp%2#0"
       ]
     },
+<<<<<<< HEAD
     "342": {
+=======
+    "335": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "defined_out": [
         "asset_id#0",
@@ -2021,7 +2713,11 @@
         "tmp%2#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "343": {
+=======
+    "336": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "len",
       "defined_out": [
         "asset_id#0",
@@ -2035,7 +2731,11 @@
         "len%1#0"
       ]
     },
+<<<<<<< HEAD
     "344": {
+=======
+    "337": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_2 // 8",
       "stack_out": [
         "asset_id#0",
@@ -2045,7 +2745,11 @@
         "8"
       ]
     },
+<<<<<<< HEAD
     "345": {
+=======
+    "338": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "==",
       "defined_out": [
         "asset_id#0",
@@ -2059,7 +2763,11 @@
         "eq%1#0"
       ]
     },
+<<<<<<< HEAD
     "346": {
+=======
+    "339": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
@@ -2068,7 +2776,11 @@
         "tmp%2#0"
       ]
     },
+<<<<<<< HEAD
     "347": {
+=======
+    "340": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "btoi",
       "defined_out": [
         "asset_id#0",
@@ -2080,7 +2792,11 @@
         "quantity#0"
       ]
     },
+<<<<<<< HEAD
     "348": {
+=======
+    "341": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "stack_out": [
         "asset_id#0",
@@ -2089,7 +2805,11 @@
         "quantity#0"
       ]
     },
+<<<<<<< HEAD
     "349": {
+=======
+    "342": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "cover 2",
       "defined_out": [
         "asset_id#0",
@@ -2102,7 +2822,11 @@
         "quantity#0"
       ]
     },
+<<<<<<< HEAD
     "351": {
+=======
+    "344": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "txn GroupIndex",
       "defined_out": [
         "asset_id#0",
@@ -2117,7 +2841,11 @@
         "tmp%4#0"
       ]
     },
+<<<<<<< HEAD
     "353": {
+=======
+    "346": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -2134,7 +2862,11 @@
         "1"
       ]
     },
+<<<<<<< HEAD
     "354": {
+=======
+    "347": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "-",
       "defined_out": [
         "asset_id#0",
@@ -2149,7 +2881,11 @@
         "buyer_pay#0"
       ]
     },
+<<<<<<< HEAD
     "355": {
+=======
+    "348": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "defined_out": [
         "asset_id#0",
@@ -2166,7 +2902,11 @@
         "buyer_pay#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "356": {
+=======
+    "349": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "gtxns TypeEnum",
       "defined_out": [
         "asset_id#0",
@@ -2183,7 +2923,11 @@
         "gtxn_type%0#0"
       ]
     },
+<<<<<<< HEAD
     "358": {
+=======
+    "351": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_0 // pay",
       "defined_out": [
         "asset_id#0",
@@ -2202,7 +2946,11 @@
         "pay"
       ]
     },
+<<<<<<< HEAD
     "359": {
+=======
+    "352": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "==",
       "defined_out": [
         "asset_id#0",
@@ -2219,7 +2967,11 @@
         "gtxn_type_matches%0#0"
       ]
     },
+<<<<<<< HEAD
     "360": {
+=======
+    "353": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "transaction type is pay",
       "op": "assert // transaction type is pay",
       "stack_out": [
@@ -2230,7 +2982,11 @@
         "buyer_pay#0"
       ]
     },
+<<<<<<< HEAD
     "361": {
+=======
+    "354": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 2",
       "defined_out": [
         "asset_id#0",
@@ -2247,7 +3003,11 @@
         "asset_id#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "363": {
+=======
+    "356": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itob",
       "defined_out": [
         "asset_id#0",
@@ -2264,7 +3024,11 @@
         "encoded_value%0#0"
       ]
     },
+<<<<<<< HEAD
     "364": {
+=======
+    "357": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "defined_out": [
         "asset_id#0",
@@ -2283,7 +3047,11 @@
         "encoded_value%0#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "365": {
+=======
+    "358": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "box_len",
       "defined_out": [
         "asset_id#0",
@@ -2304,7 +3072,11 @@
         "maybe_exists%0#0"
       ]
     },
+<<<<<<< HEAD
     "366": {
+=======
+    "359": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "bury 1",
       "stack_out": [
         "asset_id#0",
@@ -2316,7 +3088,11 @@
         "maybe_exists%0#0"
       ]
     },
+<<<<<<< HEAD
     "368": {
+=======
+    "361": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "Asset not listed",
       "op": "assert // Asset not listed",
       "stack_out": [
@@ -2328,7 +3104,11 @@
         "encoded_value%0#0"
       ]
     },
+<<<<<<< HEAD
     "369": {
+=======
+    "362": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 2",
       "defined_out": [
         "asset_id#0",
@@ -2347,7 +3127,11 @@
         "quantity#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "371": {
+=======
+    "364": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "La quantit\u00e0 deve essere maggiore di zero",
       "op": "assert // La quantit\u00e0 deve essere maggiore di zero",
       "stack_out": [
@@ -2359,7 +3143,11 @@
         "encoded_value%0#0"
       ]
     },
+<<<<<<< HEAD
     "372": {
+=======
+    "365": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "asset_id#0",
@@ -2378,7 +3166,11 @@
         "tmp%1#1"
       ]
     },
+<<<<<<< HEAD
     "374": {
+=======
+    "367": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "uncover 4",
       "stack_out": [
         "asset_id#0",
@@ -2390,7 +3182,11 @@
         "asset_id#0"
       ]
     },
+<<<<<<< HEAD
     "376": {
+=======
+    "369": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "asset_id#0",
@@ -2410,7 +3206,11 @@
         "check%0#0"
       ]
     },
+<<<<<<< HEAD
     "378": {
+=======
+    "371": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "account opted into asset",
       "op": "assert // account opted into asset",
       "stack_out": [
@@ -2422,7 +3222,11 @@
         "value%0#0"
       ]
     },
+<<<<<<< HEAD
     "379": {
+=======
+    "372": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 3",
       "stack_out": [
         "asset_id#0",
@@ -2434,7 +3238,11 @@
         "quantity#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "381": {
+=======
+    "374": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": ">=",
       "defined_out": [
         "asset_id#0",
@@ -2452,7 +3260,11 @@
         "tmp%2#1"
       ]
     },
+<<<<<<< HEAD
     "382": {
+=======
+    "375": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "assert",
       "stack_out": [
         "asset_id#0",
@@ -2462,7 +3274,11 @@
         "encoded_value%0#0"
       ]
     },
+<<<<<<< HEAD
     "383": {
+=======
+    "376": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "box_get",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2480,7 +3296,11 @@
         "aggregate%box_get%1#0"
       ]
     },
+<<<<<<< HEAD
     "384": {
+=======
+    "377": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "pop",
       "stack_out": [
         "asset_id#0",
@@ -2490,7 +3310,11 @@
         "aggregate%box_get%0#0"
       ]
     },
+<<<<<<< HEAD
     "385": {
+=======
+    "378": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2508,7 +3332,11 @@
         "aggregate%box_get%0#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "386": {
+=======
+    "379": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "pushint 32",
       "defined_out": [
         "32",
@@ -2528,7 +3356,11 @@
         "32"
       ]
     },
+<<<<<<< HEAD
     "388": {
+=======
+    "381": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "extract_uint64",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2546,7 +3378,11 @@
         "values%0#0"
       ]
     },
+<<<<<<< HEAD
     "389": {
+=======
+    "382": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "uncover 3",
       "stack_out": [
         "asset_id#0",
@@ -2557,7 +3393,11 @@
         "quantity#0"
       ]
     },
+<<<<<<< HEAD
     "391": {
+=======
+    "384": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "*",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2574,7 +3414,11 @@
         "expected_amount#0"
       ]
     },
+<<<<<<< HEAD
     "392": {
+=======
+    "385": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 2",
       "stack_out": [
         "asset_id#0",
@@ -2585,7 +3429,11 @@
         "buyer_pay#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "394": {
+=======
+    "387": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "gtxns Sender",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2604,7 +3452,11 @@
         "tmp%4#1"
       ]
     },
+<<<<<<< HEAD
     "396": {
+=======
+    "389": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "txn Sender",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2625,7 +3477,11 @@
         "tmp%5#0"
       ]
     },
+<<<<<<< HEAD
     "398": {
+=======
+    "391": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "==",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2644,7 +3500,11 @@
         "tmp%6#0"
       ]
     },
+<<<<<<< HEAD
     "399": {
+=======
+    "392": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "assert",
       "stack_out": [
         "asset_id#0",
@@ -2654,7 +3514,11 @@
         "expected_amount#0"
       ]
     },
+<<<<<<< HEAD
     "400": {
+=======
+    "393": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 2",
       "stack_out": [
         "asset_id#0",
@@ -2665,7 +3529,11 @@
         "buyer_pay#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "402": {
+=======
+    "395": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "gtxns Amount",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2684,7 +3552,11 @@
         "tmp%7#0"
       ]
     },
+<<<<<<< HEAD
     "404": {
+=======
+    "397": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 1",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2705,7 +3577,11 @@
         "expected_amount#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "406": {
+=======
+    "399": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "==",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2724,7 +3600,11 @@
         "tmp%8#0"
       ]
     },
+<<<<<<< HEAD
     "407": {
+=======
+    "400": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "assert",
       "stack_out": [
         "asset_id#0",
@@ -2734,7 +3614,11 @@
         "expected_amount#0"
       ]
     },
+<<<<<<< HEAD
     "408": {
+=======
+    "401": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "uncover 2",
       "stack_out": [
         "asset_id#0",
@@ -2744,7 +3628,11 @@
         "buyer_pay#0"
       ]
     },
+<<<<<<< HEAD
     "410": {
+=======
+    "403": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "gtxns Receiver",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2761,7 +3649,11 @@
         "tmp%9#0"
       ]
     },
+<<<<<<< HEAD
     "412": {
+=======
+    "405": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2780,7 +3672,11 @@
         "tmp%10#0"
       ]
     },
+<<<<<<< HEAD
     "414": {
+=======
+    "407": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "==",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2797,7 +3693,11 @@
         "tmp%11#0"
       ]
     },
+<<<<<<< HEAD
     "415": {
+=======
+    "408": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "assert",
       "stack_out": [
         "asset_id#0",
@@ -2806,7 +3706,11 @@
         "expected_amount#0"
       ]
     },
+<<<<<<< HEAD
     "416": {
+=======
+    "409": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_1 // 0",
       "stack_out": [
         "asset_id#0",
@@ -2816,7 +3720,11 @@
         "0"
       ]
     },
+<<<<<<< HEAD
     "417": {
+=======
+    "410": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "bytec_1 // \"FEE_BPS\"",
       "defined_out": [
         "\"FEE_BPS\"",
@@ -2835,7 +3743,11 @@
         "\"FEE_BPS\""
       ]
     },
+<<<<<<< HEAD
     "418": {
+=======
+    "411": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "app_global_get_ex",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2854,7 +3766,11 @@
         "maybe_exists%1#0"
       ]
     },
+<<<<<<< HEAD
     "419": {
+=======
+    "412": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "check self.FEE_BPS exists",
       "op": "assert // check self.FEE_BPS exists",
       "stack_out": [
@@ -2865,7 +3781,11 @@
         "maybe_value%1#0"
       ]
     },
+<<<<<<< HEAD
     "420": {
+=======
+    "413": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 1",
       "stack_out": [
         "asset_id#0",
@@ -2876,7 +3796,11 @@
         "expected_amount#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "422": {
+=======
+    "415": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "*",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2893,7 +3817,11 @@
         "tmp%12#0"
       ]
     },
+<<<<<<< HEAD
     "423": {
+=======
+    "416": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_1 // 0",
       "stack_out": [
         "asset_id#0",
@@ -2904,7 +3832,11 @@
         "0"
       ]
     },
+<<<<<<< HEAD
     "424": {
+=======
+    "417": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "bytec_2 // \"BPS_DIVISOR\"",
       "defined_out": [
         "\"BPS_DIVISOR\"",
@@ -2925,7 +3857,11 @@
         "\"BPS_DIVISOR\""
       ]
     },
+<<<<<<< HEAD
     "425": {
+=======
+    "418": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "app_global_get_ex",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2946,7 +3882,11 @@
         "maybe_exists%2#0"
       ]
     },
+<<<<<<< HEAD
     "426": {
+=======
+    "419": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "check self.BPS_DIVISOR exists",
       "op": "assert // check self.BPS_DIVISOR exists",
       "stack_out": [
@@ -2958,7 +3898,11 @@
         "maybe_value%2#0"
       ]
     },
+<<<<<<< HEAD
     "427": {
+=======
+    "420": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "/",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -2975,7 +3919,11 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "428": {
+=======
+    "421": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "stack_out": [
         "asset_id#0",
@@ -2986,7 +3934,11 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "429": {
+=======
+    "422": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "cover 3",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -3004,7 +3956,11 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "431": {
+=======
+    "424": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "swap",
       "stack_out": [
         "asset_id#0",
@@ -3015,7 +3971,11 @@
         "expected_amount#0"
       ]
     },
+<<<<<<< HEAD
     "432": {
+=======
+    "425": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 1",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -3035,7 +3995,11 @@
         "fee#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "434": {
+=======
+    "427": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "-",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -3053,10 +4017,17 @@
         "seller_amount#0"
       ]
     },
+<<<<<<< HEAD
     "435": {
       "op": "itxn_begin"
     },
     "436": {
+=======
+    "428": {
+      "op": "itxn_begin"
+    },
+    "429": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "uncover 2",
       "stack_out": [
         "asset_id#0",
@@ -3067,7 +4038,11 @@
         "aggregate%box_get%0#0"
       ]
     },
+<<<<<<< HEAD
     "438": {
+=======
+    "431": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "extract 0 32",
       "defined_out": [
         "aggregate%extract%1#0",
@@ -3085,10 +4060,17 @@
         "aggregate%extract%1#0"
       ]
     },
+<<<<<<< HEAD
     "441": {
       "op": "itxn_field Receiver"
     },
     "443": {
+=======
+    "434": {
+      "op": "itxn_field Receiver"
+    },
+    "436": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field Amount",
       "stack_out": [
         "asset_id#0",
@@ -3097,7 +4079,11 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "445": {
+=======
+    "438": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_0 // pay",
       "stack_out": [
         "asset_id#0",
@@ -3107,7 +4093,11 @@
         "pay"
       ]
     },
+<<<<<<< HEAD
     "446": {
+=======
+    "439": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "asset_id#0",
@@ -3116,7 +4106,11 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "448": {
+=======
+    "441": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_1 // 0",
       "stack_out": [
         "asset_id#0",
@@ -3126,7 +4120,11 @@
         "0"
       ]
     },
+<<<<<<< HEAD
     "449": {
+=======
+    "442": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field Fee",
       "stack_out": [
         "asset_id#0",
@@ -3135,10 +4133,17 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "451": {
       "op": "itxn_submit"
     },
     "452": {
+=======
+    "444": {
+      "op": "itxn_submit"
+    },
+    "445": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "bz buy_asset_after_if_else@5",
       "stack_out": [
         "asset_id#0",
@@ -3146,10 +4151,17 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "455": {
       "op": "itxn_begin"
     },
     "456": {
+=======
+    "448": {
+      "op": "itxn_begin"
+    },
+    "449": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "global CreatorAddress",
       "defined_out": [
         "asset_id#0",
@@ -3164,7 +4176,11 @@
         "inner_txn_params%1%%param_Receiver_idx_0#0"
       ]
     },
+<<<<<<< HEAD
     "458": {
+=======
+    "451": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 1",
       "stack_out": [
         "asset_id#0",
@@ -3174,7 +4190,11 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "460": {
+=======
+    "453": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field Amount",
       "stack_out": [
         "asset_id#0",
@@ -3183,7 +4203,11 @@
         "inner_txn_params%1%%param_Receiver_idx_0#0"
       ]
     },
+<<<<<<< HEAD
     "462": {
+=======
+    "455": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field Receiver",
       "stack_out": [
         "asset_id#0",
@@ -3191,7 +4215,11 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "464": {
+=======
+    "457": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_0 // pay",
       "stack_out": [
         "asset_id#0",
@@ -3200,7 +4228,11 @@
         "pay"
       ]
     },
+<<<<<<< HEAD
     "465": {
+=======
+    "458": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "asset_id#0",
@@ -3208,7 +4240,11 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "467": {
+=======
+    "460": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_1 // 0",
       "stack_out": [
         "asset_id#0",
@@ -3217,7 +4253,11 @@
         "0"
       ]
     },
+<<<<<<< HEAD
     "468": {
+=======
+    "461": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field Fee",
       "stack_out": [
         "asset_id#0",
@@ -3225,10 +4265,17 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "470": {
       "op": "itxn_submit"
     },
     "471": {
+=======
+    "463": {
+      "op": "itxn_submit"
+    },
+    "464": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "block": "buy_asset_after_if_else@5",
       "stack_in": [
         "asset_id#0",
@@ -3237,7 +4284,11 @@
       ],
       "op": "itxn_begin"
     },
+<<<<<<< HEAD
     "472": {
+=======
+    "465": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "txn Sender",
       "defined_out": [
         "inner_txn_params%2%%param_AssetReceiver_idx_0#0"
@@ -3249,7 +4300,11 @@
         "inner_txn_params%2%%param_AssetReceiver_idx_0#0"
       ]
     },
+<<<<<<< HEAD
     "474": {
+=======
+    "467": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 2",
       "defined_out": [
         "inner_txn_params%2%%param_AssetReceiver_idx_0#0",
@@ -3263,7 +4318,11 @@
         "quantity#0"
       ]
     },
+<<<<<<< HEAD
     "476": {
+=======
+    "469": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field AssetAmount",
       "stack_out": [
         "asset_id#0",
@@ -3272,7 +4331,11 @@
         "inner_txn_params%2%%param_AssetReceiver_idx_0#0"
       ]
     },
+<<<<<<< HEAD
     "478": {
+=======
+    "471": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field AssetReceiver",
       "stack_out": [
         "asset_id#0",
@@ -3280,7 +4343,11 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "480": {
+=======
+    "473": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 2",
       "defined_out": [
         "asset_id#0",
@@ -3293,7 +4360,11 @@
         "asset_id#0"
       ]
     },
+<<<<<<< HEAD
     "482": {
+=======
+    "475": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field XferAsset",
       "stack_out": [
         "asset_id#0",
@@ -3301,7 +4372,11 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "484": {
+=======
+    "477": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_3 // axfer",
       "defined_out": [
         "asset_id#0",
@@ -3315,7 +4390,11 @@
         "axfer"
       ]
     },
+<<<<<<< HEAD
     "485": {
+=======
+    "478": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "asset_id#0",
@@ -3323,7 +4402,11 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "487": {
+=======
+    "480": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -3337,7 +4420,11 @@
         "0"
       ]
     },
+<<<<<<< HEAD
     "488": {
+=======
+    "481": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field Fee",
       "stack_out": [
         "asset_id#0",
@@ -3345,10 +4432,17 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "490": {
       "op": "itxn_submit"
     },
     "491": {
+=======
+    "483": {
+      "op": "itxn_submit"
+    },
+    "484": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -3362,7 +4456,11 @@
         "1"
       ]
     },
+<<<<<<< HEAD
     "492": {
+=======
+    "485": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "return",
       "stack_out": [
         "asset_id#0",
@@ -3370,7 +4468,11 @@
         "fee#0"
       ]
     },
+<<<<<<< HEAD
     "493": {
+=======
+    "486": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "subroutine": "smart_contracts.marketplace.contract.Marketplace.delist_remaining_assets[routing]",
       "params": {},
       "block": "delist_remaining_assets",
@@ -3383,7 +4485,11 @@
         "tmp%0#0"
       ]
     },
+<<<<<<< HEAD
     "496": {
+=======
+    "489": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
@@ -3394,7 +4500,11 @@
         "tmp%0#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "497": {
+=======
+    "490": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -3405,7 +4515,11 @@
         "len%0#0"
       ]
     },
+<<<<<<< HEAD
     "498": {
+=======
+    "491": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -3418,7 +4532,11 @@
         "8"
       ]
     },
+<<<<<<< HEAD
     "499": {
+=======
+    "492": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -3429,14 +4547,22 @@
         "eq%0#0"
       ]
     },
+<<<<<<< HEAD
     "500": {
+=======
+    "493": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
         "tmp%0#0"
       ]
     },
+<<<<<<< HEAD
     "501": {
+=======
+    "494": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "btoi",
       "defined_out": [
         "asset_id#0"
@@ -3445,7 +4571,11 @@
         "asset_id#0"
       ]
     },
+<<<<<<< HEAD
     "502": {
+=======
+    "495": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "defined_out": [
         "asset_id#0",
@@ -3456,7 +4586,11 @@
         "asset_id#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "503": {
+=======
+    "496": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itob",
       "defined_out": [
         "asset_id#0",
@@ -3467,7 +4601,11 @@
         "encoded_value%0#0"
       ]
     },
+<<<<<<< HEAD
     "504": {
+=======
+    "497": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "defined_out": [
         "asset_id#0",
@@ -3480,7 +4618,11 @@
         "encoded_value%0#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "505": {
+=======
+    "498": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "box_len",
       "defined_out": [
         "asset_id#0",
@@ -3495,7 +4637,11 @@
         "maybe_exists%0#0"
       ]
     },
+<<<<<<< HEAD
     "506": {
+=======
+    "499": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "bury 1",
       "stack_out": [
         "asset_id#0",
@@ -3503,7 +4649,11 @@
         "maybe_exists%0#0"
       ]
     },
+<<<<<<< HEAD
     "508": {
+=======
+    "501": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "Asset not listed",
       "op": "assert // Asset not listed",
       "stack_out": [
@@ -3511,7 +4661,11 @@
         "encoded_value%0#0"
       ]
     },
+<<<<<<< HEAD
     "509": {
+=======
+    "502": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "txn Sender",
       "defined_out": [
         "asset_id#0",
@@ -3524,7 +4678,11 @@
         "tmp%0#1"
       ]
     },
+<<<<<<< HEAD
     "511": {
+=======
+    "504": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 1",
       "stack_out": [
         "asset_id#0",
@@ -3533,7 +4691,11 @@
         "encoded_value%0#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "513": {
+=======
+    "506": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "box_get",
       "defined_out": [
         "aggregate%box_get%0#0",
@@ -3550,7 +4712,11 @@
         "aggregate%box_get%1#0"
       ]
     },
+<<<<<<< HEAD
     "514": {
+=======
+    "507": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "pop",
       "stack_out": [
         "asset_id#0",
@@ -3559,6 +4725,7 @@
         "aggregate%box_get%0#0"
       ]
     },
+<<<<<<< HEAD
     "515": {
       "op": "dup",
       "defined_out": [
@@ -3580,6 +4747,11 @@
       "op": "extract 0 32",
       "defined_out": [
         "aggregate%box_get%0#0",
+=======
+    "508": {
+      "op": "extract 0 32",
+      "defined_out": [
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "aggregate%extract%0#0",
         "asset_id#0",
         "encoded_value%0#0",
@@ -3589,6 +4761,7 @@
         "asset_id#0",
         "encoded_value%0#0",
         "tmp%0#1",
+<<<<<<< HEAD
         "aggregate%box_get%0#0",
         "aggregate%extract%0#0"
       ]
@@ -3599,14 +4772,30 @@
         "asset_id#0",
         "encoded_value%0#0",
         "aggregate%box_get%0#0",
+=======
+        "aggregate%extract%0#0"
+      ]
+    },
+    "511": {
+      "op": "swap",
+      "stack_out": [
+        "asset_id#0",
+        "encoded_value%0#0",
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "aggregate%extract%0#0",
         "tmp%0#1"
       ]
     },
+<<<<<<< HEAD
     "521": {
       "op": "dig 1",
       "defined_out": [
         "aggregate%box_get%0#0",
+=======
+    "512": {
+      "op": "dig 1",
+      "defined_out": [
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "aggregate%extract%0#0",
         "aggregate%extract%0#0 (copy)",
         "asset_id#0",
@@ -3616,16 +4805,25 @@
       "stack_out": [
         "asset_id#0",
         "encoded_value%0#0",
+<<<<<<< HEAD
         "aggregate%box_get%0#0",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "aggregate%extract%0#0",
         "tmp%0#1",
         "aggregate%extract%0#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "523": {
       "op": "==",
       "defined_out": [
         "aggregate%box_get%0#0",
+=======
+    "514": {
+      "op": "==",
+      "defined_out": [
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "aggregate%extract%0#0",
         "asset_id#0",
         "encoded_value%0#0",
@@ -3634,16 +4832,24 @@
       "stack_out": [
         "asset_id#0",
         "encoded_value%0#0",
+<<<<<<< HEAD
         "aggregate%box_get%0#0",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "aggregate%extract%0#0",
         "tmp%1#1"
       ]
     },
+<<<<<<< HEAD
     "524": {
+=======
+    "515": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "assert",
       "stack_out": [
         "asset_id#0",
         "encoded_value%0#0",
+<<<<<<< HEAD
         "aggregate%box_get%0#0",
         "aggregate%extract%0#0"
       ]
@@ -3652,6 +4858,14 @@
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "aggregate%box_get%0#0",
+=======
+        "aggregate%extract%0#0"
+      ]
+    },
+    "516": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "aggregate%extract%0#0",
         "asset_id#0",
         "encoded_value%0#0",
@@ -3660,26 +4874,43 @@
       "stack_out": [
         "asset_id#0",
         "encoded_value%0#0",
+<<<<<<< HEAD
         "aggregate%box_get%0#0",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "aggregate%extract%0#0",
         "tmp%2#0"
       ]
     },
+<<<<<<< HEAD
     "527": {
       "op": "dig 4",
       "stack_out": [
         "asset_id#0",
         "encoded_value%0#0",
         "aggregate%box_get%0#0",
+=======
+    "518": {
+      "op": "dig 3",
+      "stack_out": [
+        "asset_id#0",
+        "encoded_value%0#0",
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "aggregate%extract%0#0",
         "tmp%2#0",
         "asset_id#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "529": {
       "op": "asset_holding_get AssetBalance",
       "defined_out": [
         "aggregate%box_get%0#0",
+=======
+    "520": {
+      "op": "asset_holding_get AssetBalance",
+      "defined_out": [
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "aggregate%extract%0#0",
         "asset_id#0",
         "check%0#0",
@@ -3689,52 +4920,84 @@
       "stack_out": [
         "asset_id#0",
         "encoded_value%0#0",
+<<<<<<< HEAD
         "aggregate%box_get%0#0",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "aggregate%extract%0#0",
         "contract_balance#0",
         "check%0#0"
       ]
     },
+<<<<<<< HEAD
     "531": {
+=======
+    "522": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "account opted into asset",
       "op": "assert // account opted into asset",
       "stack_out": [
         "asset_id#0",
         "encoded_value%0#0",
+<<<<<<< HEAD
         "aggregate%box_get%0#0",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "aggregate%extract%0#0",
         "contract_balance#0"
       ]
     },
+<<<<<<< HEAD
     "532": {
       "op": "itxn_begin"
     },
     "533": {
+=======
+    "523": {
+      "op": "itxn_begin"
+    },
+    "524": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dig 1",
       "stack_out": [
         "asset_id#0",
         "encoded_value%0#0",
+<<<<<<< HEAD
         "aggregate%box_get%0#0",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "aggregate%extract%0#0",
         "contract_balance#0",
         "aggregate%extract%0#0 (copy)"
       ]
     },
+<<<<<<< HEAD
     "535": {
+=======
+    "526": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field AssetCloseTo",
       "stack_out": [
         "asset_id#0",
         "encoded_value%0#0",
+<<<<<<< HEAD
         "aggregate%box_get%0#0",
+=======
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "aggregate%extract%0#0",
         "contract_balance#0"
       ]
     },
+<<<<<<< HEAD
     "537": {
+=======
+    "528": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field AssetAmount",
       "stack_out": [
         "asset_id#0",
         "encoded_value%0#0",
+<<<<<<< HEAD
         "aggregate%box_get%0#0",
         "aggregate%extract%0#0"
       ]
@@ -3780,11 +5043,40 @@
       "defined_out": [
         "aggregate%box_get%0#0",
         "aggregate%extract%0#0",
+=======
+        "aggregate%extract%0#0"
+      ]
+    },
+    "530": {
+      "op": "itxn_field AssetReceiver",
+      "stack_out": [
+        "asset_id#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "532": {
+      "op": "swap",
+      "stack_out": [
+        "encoded_value%0#0",
+        "asset_id#0"
+      ]
+    },
+    "533": {
+      "op": "itxn_field XferAsset",
+      "stack_out": [
+        "encoded_value%0#0"
+      ]
+    },
+    "535": {
+      "op": "intc_3 // axfer",
+      "defined_out": [
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "axfer",
         "encoded_value%0#0"
       ],
       "stack_out": [
         "encoded_value%0#0",
+<<<<<<< HEAD
         "aggregate%box_get%0#0",
         "aggregate%extract%0#0",
         "axfer"
@@ -3804,10 +5096,26 @@
         "0",
         "aggregate%box_get%0#0",
         "aggregate%extract%0#0",
+=======
+        "axfer"
+      ]
+    },
+    "536": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "encoded_value%0#0"
+      ]
+    },
+    "538": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
         "encoded_value%0#0"
       ],
       "stack_out": [
         "encoded_value%0#0",
+<<<<<<< HEAD
         "aggregate%box_get%0#0",
         "aggregate%extract%0#0",
         "0"
@@ -3901,15 +5209,28 @@
       ]
     },
     "566": {
+=======
+        "0"
+      ]
+    },
+    "539": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field Fee",
       "stack_out": [
         "encoded_value%0#0"
       ]
     },
+<<<<<<< HEAD
     "568": {
       "op": "itxn_submit"
     },
     "569": {
+=======
+    "541": {
+      "op": "itxn_submit"
+    },
+    "542": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "box_del",
       "defined_out": [
         "{box_del}"
@@ -3918,17 +5239,29 @@
         "{box_del}"
       ]
     },
+<<<<<<< HEAD
     "570": {
       "op": "pop",
       "stack_out": []
     },
     "571": {
+=======
+    "543": {
+      "op": "pop",
+      "stack_out": []
+    },
+    "544": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_1 // 0",
       "stack_out": [
         "0"
       ]
     },
+<<<<<<< HEAD
     "572": {
+=======
+    "545": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "bytec_0 // \"active_listings\"",
       "defined_out": [
         "\"active_listings\"",
@@ -3939,7 +5272,11 @@
         "\"active_listings\""
       ]
     },
+<<<<<<< HEAD
     "573": {
+=======
+    "546": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%1#0",
@@ -3950,14 +5287,22 @@
         "maybe_exists%1#0"
       ]
     },
+<<<<<<< HEAD
     "574": {
+=======
+    "547": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "check self.active_listings exists",
       "op": "assert // check self.active_listings exists",
       "stack_out": [
         "maybe_value%1#0"
       ]
     },
+<<<<<<< HEAD
     "575": {
+=======
+    "548": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -3968,7 +5313,11 @@
         "1"
       ]
     },
+<<<<<<< HEAD
     "576": {
+=======
+    "549": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "-",
       "defined_out": [
         "tmp%3#0"
@@ -3977,35 +5326,59 @@
         "tmp%3#0"
       ]
     },
+<<<<<<< HEAD
     "577": {
+=======
+    "550": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "bytec_0 // \"active_listings\"",
       "stack_out": [
         "tmp%3#0",
         "\"active_listings\""
       ]
     },
+<<<<<<< HEAD
     "578": {
+=======
+    "551": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "swap",
       "stack_out": [
         "\"active_listings\"",
         "tmp%3#0"
       ]
     },
+<<<<<<< HEAD
     "579": {
       "op": "app_global_put",
       "stack_out": []
     },
     "580": {
+=======
+    "552": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "553": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_0 // 1",
       "stack_out": [
         "1"
       ]
     },
+<<<<<<< HEAD
     "581": {
       "op": "return",
       "stack_out": []
     },
     "582": {
+=======
+    "554": {
+      "op": "return",
+      "stack_out": []
+    },
+    "555": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "subroutine": "smart_contracts.marketplace.contract.Marketplace.delete_application[routing]",
       "params": {},
       "block": "delete_application",
@@ -4018,7 +5391,11 @@
         "tmp%0#0"
       ]
     },
+<<<<<<< HEAD
     "584": {
+=======
+    "557": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "global CreatorAddress",
       "defined_out": [
         "tmp%0#0",
@@ -4029,7 +5406,11 @@
         "tmp%1#0"
       ]
     },
+<<<<<<< HEAD
     "586": {
+=======
+    "559": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "==",
       "defined_out": [
         "tmp%2#0"
@@ -4038,11 +5419,19 @@
         "tmp%2#0"
       ]
     },
+<<<<<<< HEAD
     "587": {
       "op": "assert",
       "stack_out": []
     },
     "588": {
+=======
+    "560": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "561": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_1 // 0",
       "defined_out": [
         "0"
@@ -4051,7 +5440,11 @@
         "0"
       ]
     },
+<<<<<<< HEAD
     "589": {
+=======
+    "562": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "bytec_0 // \"active_listings\"",
       "defined_out": [
         "\"active_listings\"",
@@ -4062,7 +5455,11 @@
         "\"active_listings\""
       ]
     },
+<<<<<<< HEAD
     "590": {
+=======
+    "563": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -4073,14 +5470,22 @@
         "maybe_exists%0#0"
       ]
     },
+<<<<<<< HEAD
     "591": {
+=======
+    "564": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "check self.active_listings exists",
       "op": "assert // check self.active_listings exists",
       "stack_out": [
         "maybe_value%0#0"
       ]
     },
+<<<<<<< HEAD
     "592": {
+=======
+    "565": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "!",
       "defined_out": [
         "tmp%3#0"
@@ -4089,15 +5494,26 @@
         "tmp%3#0"
       ]
     },
+<<<<<<< HEAD
     "593": {
+=======
+    "566": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "error": "Active listings must be zero",
       "op": "assert // Active listings must be zero",
       "stack_out": []
     },
+<<<<<<< HEAD
     "594": {
       "op": "itxn_begin"
     },
     "595": {
+=======
+    "567": {
+      "op": "itxn_begin"
+    },
+    "568": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "global CreatorAddress",
       "defined_out": [
         "inner_txn_params%0%%param_Receiver_idx_0#0"
@@ -4106,7 +5522,11 @@
         "inner_txn_params%0%%param_Receiver_idx_0#0"
       ]
     },
+<<<<<<< HEAD
     "597": {
+=======
+    "570": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "dup",
       "defined_out": [
         "inner_txn_params%0%%param_CloseRemainderTo_idx_0#0",
@@ -4117,7 +5537,11 @@
         "inner_txn_params%0%%param_CloseRemainderTo_idx_0#0"
       ]
     },
+<<<<<<< HEAD
     "598": {
+=======
+    "571": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_1 // 0",
       "stack_out": [
         "inner_txn_params%0%%param_Receiver_idx_0#0",
@@ -4125,24 +5549,40 @@
         "0"
       ]
     },
+<<<<<<< HEAD
     "599": {
+=======
+    "572": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field Amount",
       "stack_out": [
         "inner_txn_params%0%%param_Receiver_idx_0#0",
         "inner_txn_params%0%%param_CloseRemainderTo_idx_0#0"
       ]
     },
+<<<<<<< HEAD
     "601": {
+=======
+    "574": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "itxn_field CloseRemainderTo",
       "stack_out": [
         "inner_txn_params%0%%param_Receiver_idx_0#0"
       ]
     },
+<<<<<<< HEAD
     "603": {
       "op": "itxn_field Receiver",
       "stack_out": []
     },
     "605": {
+=======
+    "576": {
+      "op": "itxn_field Receiver",
+      "stack_out": []
+    },
+    "578": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_0 // pay",
       "defined_out": [
         "pay"
@@ -4151,16 +5591,25 @@
         "pay"
       ]
     },
+<<<<<<< HEAD
     "606": {
       "op": "itxn_field TypeEnum",
       "stack_out": []
     },
     "608": {
+=======
+    "579": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "581": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_1 // 0",
       "stack_out": [
         "0"
       ]
     },
+<<<<<<< HEAD
     "609": {
       "op": "itxn_field Fee",
       "stack_out": []
@@ -4169,6 +5618,16 @@
       "op": "itxn_submit"
     },
     "612": {
+=======
+    "582": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "584": {
+      "op": "itxn_submit"
+    },
+    "585": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "intc_0 // 1",
       "defined_out": [
         "1"
@@ -4177,7 +5636,11 @@
         "1"
       ]
     },
+<<<<<<< HEAD
     "613": {
+=======
+    "586": {
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
       "op": "return",
       "stack_out": []
     }

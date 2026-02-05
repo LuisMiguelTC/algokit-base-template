@@ -5,14 +5,22 @@
 main:
     intcblock 1 0 8 4
     bytecblock "active_listings" "FEE_BPS" "BPS_DIVISOR"
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:11
+=======
+    // smart_contracts/marketplace/contract.py:10
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // class Marketplace(ARC4Contract):
     pushbytes 0x33b3499e // method "delete_application()void"
     txna ApplicationArgs 0
     match main_delete_application_route@4
 
 main_switch_case_next@5:
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:11
+=======
+    // smart_contracts/marketplace/contract.py:10
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // class Marketplace(ARC4Contract):
     txn OnCompletion
     !
@@ -25,7 +33,11 @@ main_switch_case_next@5:
     err
 
 main_create_NoOp@12:
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:11
+=======
+    // smart_contracts/marketplace/contract.py:10
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // class Marketplace(ARC4Contract):
     pushbytes 0x752c3ac0 // method "create_application()void"
     txna ApplicationArgs 0
@@ -33,7 +45,11 @@ main_create_NoOp@12:
     err
 
 main_delete_application_route@4:
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:160
+=======
+    // smart_contracts/marketplace/contract.py:152
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // @arc4.abimethod(allow_actions=["DeleteApplication"])
     txn OnCompletion
     pushint 5 // DeleteApplication
@@ -46,23 +62,39 @@ main_delete_application_route@4:
 
 // smart_contracts.marketplace.contract.Marketplace.create_application[routing]() -> void:
 create_application:
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:23-24
+=======
+    // smart_contracts/marketplace/contract.py:22-23
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Inizializzazione commissione del creatore
     // self.FEE_BPS = UInt64(100)      # 100 BPS = 1%
     bytec_1 // "FEE_BPS"
     pushint 100
     app_global_put
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:25
+=======
+    // smart_contracts/marketplace/contract.py:24
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // self.BPS_DIVISOR = UInt64(10_000)  # Divisore per basis points
     bytec_2 // "BPS_DIVISOR"
     pushint 10000
     app_global_put
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:26
+=======
+    // smart_contracts/marketplace/contract.py:25
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // self.active_listings = UInt64(0)
     bytec_0 // "active_listings"
     intc_1 // 0
     app_global_put
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:21
+=======
+    // smart_contracts/marketplace/contract.py:20
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // @arc4.abimethod(allow_actions=["NoOp"], create="require")
     intc_0 // 1
     return
@@ -70,7 +102,11 @@ create_application:
 
 // smart_contracts.marketplace.contract.Marketplace.list_asset[routing]() -> void:
 list_asset:
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:28-29
+=======
+    // smart_contracts/marketplace/contract.py:27-28
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # 1. Metodo per mettere in vendita un nuovo oggetto
     // @arc4.abimethod
     txna ApplicationArgs 1
@@ -98,21 +134,36 @@ list_asset:
     intc_0 // pay
     ==
     assert // transaction type is pay
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:32
     // assert price > 0, "Il prezzo deve essere maggiore di zero"
     swap
     assert // Il prezzo deve essere maggiore di zero
     // smart_contracts/marketplace/contract.py:33-34
+=======
+    // smart_contracts/marketplace/contract.py:31
+    // assert price > 0, "Il prezzo deve essere maggiore di zero"
+    swap
+    assert // Il prezzo deve essere maggiore di zero
+    // smart_contracts/marketplace/contract.py:32-33
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Gestione del costo del Box (Minimum Balance Requirement)
     // assert mbr_pay.amount >= 100_000, "Pagamento MBR insufficiente"
     dup
     gtxns Amount
+<<<<<<< HEAD
     dup
     cover 3
     pushint 100000
     >=
     assert // Pagamento MBR insufficiente
     // smart_contracts/marketplace/contract.py:35-36
+=======
+    pushint 100000
+    >=
+    assert // Pagamento MBR insufficiente
+    // smart_contracts/marketplace/contract.py:34-35
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Il mittente del pagamento deve essere chi sta listando l'asset
     // assert mbr_pay.sender == Txn.sender
     dup
@@ -120,14 +171,22 @@ list_asset:
     txn Sender
     ==
     assert
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:37-38
+=======
+    // smart_contracts/marketplace/contract.py:36-37
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Il destinatario del pagamento deve essere il contratto
     // assert mbr_pay.receiver == Global.current_application_address
     gtxns Receiver
     global CurrentApplicationAddress
     ==
     assert
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:39-41
+=======
+    // smart_contracts/marketplace/contract.py:38-40
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # L'asset non deve essere già listato, questo impedisce
     // # l'overwrite di listings esistenti
     // assert not self.listings.maybe(asset)[1], "Asset già listato"
@@ -139,7 +198,11 @@ list_asset:
     bury 1
     !
     assert // Asset già listato
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:43-44
+=======
+    // smart_contracts/marketplace/contract.py:42-43
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Se il contratto non ha ancora l'asset, deve fare l'opt-in
     // if not Global.current_application_address.is_opted_in(Asset(asset)):
     global CurrentApplicationAddress
@@ -147,7 +210,11 @@ list_asset:
     asset_holding_get AssetBalance
     bury 1
     bnz list_asset_after_if_else@4
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:45-50
+=======
+    // smart_contracts/marketplace/contract.py:44-49
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // itxn.AssetTransfer(
     //     xfer_asset=asset,
     //     asset_receiver=Global.current_application_address,
@@ -155,14 +222,22 @@ list_asset:
     //     fee= 0,
     // ).submit()
     itxn_begin
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:47
     // asset_receiver=Global.current_application_address,
     global CurrentApplicationAddress
     // smart_contracts/marketplace/contract.py:48
+=======
+    // smart_contracts/marketplace/contract.py:46
+    // asset_receiver=Global.current_application_address,
+    global CurrentApplicationAddress
+    // smart_contracts/marketplace/contract.py:47
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // asset_amount=0,
     intc_1 // 0
     itxn_field AssetAmount
     itxn_field AssetReceiver
+<<<<<<< HEAD
     dig 3
     itxn_field XferAsset
     // smart_contracts/marketplace/contract.py:45
@@ -174,6 +249,19 @@ list_asset:
     intc_1 // 0
     itxn_field Fee
     // smart_contracts/marketplace/contract.py:45-50
+=======
+    dig 2
+    itxn_field XferAsset
+    // smart_contracts/marketplace/contract.py:44
+    // itxn.AssetTransfer(
+    intc_3 // axfer
+    itxn_field TypeEnum
+    // smart_contracts/marketplace/contract.py:48
+    // fee= 0,
+    intc_1 // 0
+    itxn_field Fee
+    // smart_contracts/marketplace/contract.py:44-49
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // itxn.AssetTransfer(
     //     xfer_asset=asset,
     //     asset_receiver=Global.current_application_address,
@@ -183,6 +271,7 @@ list_asset:
     itxn_submit
 
 list_asset_after_if_else@4:
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:54
     // owner=Txn.sender,
     txn Sender
@@ -196,13 +285,28 @@ list_asset_after_if_else@4:
     dig 3
     itob
     concat
+=======
+    // smart_contracts/marketplace/contract.py:53
+    // owner=Txn.sender,
+    txn Sender
+    // smart_contracts/marketplace/contract.py:51-55
+    // # Salviamo il prezzo nel Box associato all'ID dell'asset
+    // self.listings[asset] = ListingsData(
+    //     owner=Txn.sender,
+    //     price=price
+    // )
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     dig 2
     itob
     concat
     dig 1
     swap
     box_put
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:58
+=======
+    // smart_contracts/marketplace/contract.py:56
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // self.active_listings += 1
     intc_1 // 0
     bytec_0 // "active_listings"
@@ -213,7 +317,11 @@ list_asset_after_if_else@4:
     bytec_0 // "active_listings"
     swap
     app_global_put
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:28-29
+=======
+    // smart_contracts/marketplace/contract.py:27-28
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # 1. Metodo per mettere in vendita un nuovo oggetto
     // @arc4.abimethod
     intc_0 // 1
@@ -222,7 +330,11 @@ list_asset_after_if_else@4:
 
 // smart_contracts.marketplace.contract.Marketplace.deposit_asset[routing]() -> void:
 deposit_asset:
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:61
+=======
+    // smart_contracts/marketplace/contract.py:59
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // @arc4.abimethod
     txn GroupIndex
     intc_0 // 1
@@ -232,12 +344,20 @@ deposit_asset:
     intc_3 // axfer
     ==
     assert // transaction type is axfer
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:66-67
+=======
+    // smart_contracts/marketplace/contract.py:64-65
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Verifichiamo che l'asset sia quello giusto
     // asset_id = axfer.xfer_asset.id
     dup
     gtxns XferAsset
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:69-70
+=======
+    // smart_contracts/marketplace/contract.py:67-68
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Il destinatario deve essere il contratto
     // assert (axfer.asset_receiver == Global.current_application_address), "Il ricevente deve essere il contratto"
     dig 1
@@ -245,7 +365,11 @@ deposit_asset:
     global CurrentApplicationAddress
     ==
     assert // Il ricevente deve essere il contratto
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:72-73
+=======
+    // smart_contracts/marketplace/contract.py:70-71
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # L'asset deve essere tra quelli listati
     // assert self.listings.maybe(asset_id)[1], "Asset non listato"
     dup
@@ -254,13 +378,21 @@ deposit_asset:
     box_len
     bury 1
     assert // Asset non listato
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:75-76
+=======
+    // smart_contracts/marketplace/contract.py:73-74
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # La quantità deve essere positiva
     // assert axfer.asset_amount > 0, "La quantita deve essere maggiore di zero"
     dig 2
     gtxns AssetAmount
     assert // La quantita deve essere maggiore di zero
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:78-79
+=======
+    // smart_contracts/marketplace/contract.py:76-77
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Solo il proprietario del listing può rifornire (opzionale)
     // assert axfer.sender == self.listings[asset_id].owner, "Solo il proprietario può depositare"
     uncover 2
@@ -271,7 +403,11 @@ deposit_asset:
     extract 0 32
     ==
     assert // Solo il proprietario può depositare
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:81-83
+=======
+    // smart_contracts/marketplace/contract.py:79-81
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # L'incremento è avvenuto grazie ad 'axfer'.
     // # Restituiamo il bilancio totale aggiornato.
     // return Asset(asset_id).balance(Global.current_application_address)
@@ -279,7 +415,11 @@ deposit_asset:
     swap
     asset_holding_get AssetBalance
     assert // account opted into asset
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:61
+=======
+    // smart_contracts/marketplace/contract.py:59
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // @arc4.abimethod
     itob
     pushbytes 0x151f7c75
@@ -292,7 +432,11 @@ deposit_asset:
 
 // smart_contracts.marketplace.contract.Marketplace.buy_asset[routing]() -> void:
 buy_asset:
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:85-86
+=======
+    // smart_contracts/marketplace/contract.py:83-84
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # 2. Metodo per acquistare un oggetto specifico tra quelli listati
     // @arc4.abimethod
     txna ApplicationArgs 1
@@ -320,7 +464,11 @@ buy_asset:
     intc_0 // pay
     ==
     assert // transaction type is pay
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:88-89
+=======
+    // smart_contracts/marketplace/contract.py:86-87
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Verifica che l'asset sia listato
     // assert self.listings.maybe(asset_id)[1], "Asset not listed"
     dig 2
@@ -329,12 +477,20 @@ buy_asset:
     box_len
     bury 1
     assert // Asset not listed
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:90-91
+=======
+    // smart_contracts/marketplace/contract.py:88-89
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Verifica che la quantità sia valida
     // assert quantity > 0, "La quantità deve essere maggiore di zero"
     dig 2
     assert // La quantità deve essere maggiore di zero
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:92-94
+=======
+    // smart_contracts/marketplace/contract.py:90-92
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Verifica quantità disponibile degli Assets richiesti
     // # This check + Algorand atomicity guarantees safety under concurrent buys
     // assert  Asset(asset_id).balance(Global.current_application_address) >= quantity
@@ -345,7 +501,11 @@ buy_asset:
     dig 3
     >=
     assert
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:95-96
+=======
+    // smart_contracts/marketplace/contract.py:93-94
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Validazione pagamento
     // expected_amount = self.listings[asset_id].price * quantity
     box_get
@@ -355,14 +515,22 @@ buy_asset:
     extract_uint64
     uncover 3
     *
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:97
+=======
+    // smart_contracts/marketplace/contract.py:95
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // assert buyer_pay.sender == Txn.sender
     dig 2
     gtxns Sender
     txn Sender
     ==
     assert
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:98-99
+=======
+    // smart_contracts/marketplace/contract.py:96-97
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Il pagamento deve essere esattamente l'importo atteso
     // assert buyer_pay.amount == expected_amount
     dig 2
@@ -370,7 +538,11 @@ buy_asset:
     dig 1
     ==
     assert
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:100-101
+=======
+    // smart_contracts/marketplace/contract.py:98-99
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Il destinatario del pagamento deve essere il contratto
     // assert buyer_pay.receiver == Global.current_application_address
     uncover 2
@@ -378,7 +550,11 @@ buy_asset:
     global CurrentApplicationAddress
     ==
     assert
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:103-104
+=======
+    // smart_contracts/marketplace/contract.py:101-102
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Calcolo fee usando FEE_BPS / BPS_DIVISOR
     // fee = (expected_amount * self.FEE_BPS) // self.BPS_DIVISOR
     intc_1 // 0
@@ -394,12 +570,20 @@ buy_asset:
     /
     dup
     cover 3
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:105
+=======
+    // smart_contracts/marketplace/contract.py:103
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // seller_amount = expected_amount - fee
     swap
     dig 1
     -
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:107-112
+=======
+    // smart_contracts/marketplace/contract.py:105-110
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Trasferimento ALGO al venditore
     // itxn.Payment(
     //     receiver=self.listings[asset_id].owner,
@@ -407,22 +591,38 @@ buy_asset:
     //     fee=0,  # il contratto dirotta il pagamento al venditore
     // ).submit()
     itxn_begin
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:109
+=======
+    // smart_contracts/marketplace/contract.py:107
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // receiver=self.listings[asset_id].owner,
     uncover 2
     extract 0 32
     itxn_field Receiver
     itxn_field Amount
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:107-108
+=======
+    // smart_contracts/marketplace/contract.py:105-106
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Trasferimento ALGO al venditore
     // itxn.Payment(
     intc_0 // pay
     itxn_field TypeEnum
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:111
     // fee=0,  # il contratto dirotta il pagamento al venditore
     intc_1 // 0
     itxn_field Fee
     // smart_contracts/marketplace/contract.py:107-112
+=======
+    // smart_contracts/marketplace/contract.py:109
+    // fee=0,  # il contratto dirotta il pagamento al venditore
+    intc_1 // 0
+    itxn_field Fee
+    // smart_contracts/marketplace/contract.py:105-110
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Trasferimento ALGO al venditore
     // itxn.Payment(
     //     receiver=self.listings[asset_id].owner,
@@ -430,23 +630,36 @@ buy_asset:
     //     fee=0,  # il contratto dirotta il pagamento al venditore
     // ).submit()
     itxn_submit
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:114-115
     // # Pagamento della commissione al creatore
     // if fee > 0:
     bz buy_asset_after_if_else@5
     // smart_contracts/marketplace/contract.py:116-120
+=======
+    // smart_contracts/marketplace/contract.py:112-113
+    // # Pagamento della commissione al creatore
+    // if fee > 0:
+    bz buy_asset_after_if_else@5
+    // smart_contracts/marketplace/contract.py:114-118
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // itxn.Payment(
     //     receiver=Global.creator_address,
     //     amount=fee,
     //     fee=0,  # il contratto dirotta il pagamento al creatore
     // ).submit()
     itxn_begin
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:117
+=======
+    // smart_contracts/marketplace/contract.py:115
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // receiver=Global.creator_address,
     global CreatorAddress
     dig 1
     itxn_field Amount
     itxn_field Receiver
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:116
     // itxn.Payment(
     intc_0 // pay
@@ -456,6 +669,17 @@ buy_asset:
     intc_1 // 0
     itxn_field Fee
     // smart_contracts/marketplace/contract.py:116-120
+=======
+    // smart_contracts/marketplace/contract.py:114
+    // itxn.Payment(
+    intc_0 // pay
+    itxn_field TypeEnum
+    // smart_contracts/marketplace/contract.py:117
+    // fee=0,  # il contratto dirotta il pagamento al creatore
+    intc_1 // 0
+    itxn_field Fee
+    // smart_contracts/marketplace/contract.py:114-118
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // itxn.Payment(
     //     receiver=Global.creator_address,
     //     amount=fee,
@@ -464,7 +688,11 @@ buy_asset:
     itxn_submit
 
 buy_asset_after_if_else@5:
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:122-127
+=======
+    // smart_contracts/marketplace/contract.py:120-125
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Trasferimento dell'asset all'acquirente
     // itxn.AssetTransfer(
     //     xfer_asset=asset_id,
@@ -472,7 +700,11 @@ buy_asset_after_if_else@5:
     //     asset_amount=quantity
     // ).submit()
     itxn_begin
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:125
+=======
+    // smart_contracts/marketplace/contract.py:123
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // asset_receiver=Txn.sender,
     txn Sender
     dig 2
@@ -480,14 +712,22 @@ buy_asset_after_if_else@5:
     itxn_field AssetReceiver
     dig 2
     itxn_field XferAsset
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:122-123
+=======
+    // smart_contracts/marketplace/contract.py:120-121
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Trasferimento dell'asset all'acquirente
     // itxn.AssetTransfer(
     intc_3 // axfer
     itxn_field TypeEnum
     intc_1 // 0
     itxn_field Fee
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:122-127
+=======
+    // smart_contracts/marketplace/contract.py:120-125
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Trasferimento dell'asset all'acquirente
     // itxn.AssetTransfer(
     //     xfer_asset=asset_id,
@@ -495,7 +735,11 @@ buy_asset_after_if_else@5:
     //     asset_amount=quantity
     // ).submit()
     itxn_submit
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:85-86
+=======
+    // smart_contracts/marketplace/contract.py:83-84
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # 2. Metodo per acquistare un oggetto specifico tra quelli listati
     // @arc4.abimethod
     intc_0 // 1
@@ -504,7 +748,11 @@ buy_asset_after_if_else@5:
 
 // smart_contracts.marketplace.contract.Marketplace.delist_remaining_assets[routing]() -> void:
 delist_remaining_assets:
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:129
+=======
+    // smart_contracts/marketplace/contract.py:127
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // @arc4.abimethod
     txna ApplicationArgs 1
     dup
@@ -513,7 +761,11 @@ delist_remaining_assets:
     ==
     assert // invalid number of bytes for arc4.uint64
     btoi
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:132
+=======
+    // smart_contracts/marketplace/contract.py:130
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // assert self.listings.maybe(asset_id)[1], "Asset not listed"
     dup
     itob
@@ -521,13 +773,18 @@ delist_remaining_assets:
     box_len
     bury 1
     assert // Asset not listed
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:133-134
+=======
+    // smart_contracts/marketplace/contract.py:131-132
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Solo il proprietario originale può ritirare i suoi asset
     // assert Txn.sender == self.listings[asset_id].owner
     txn Sender
     dig 1
     box_get
     pop
+<<<<<<< HEAD
     dup
     extract 0 32
     uncover 2
@@ -542,6 +799,21 @@ delist_remaining_assets:
     asset_holding_get AssetBalance
     assert // account opted into asset
     // smart_contracts/marketplace/contract.py:141-147
+=======
+    extract 0 32
+    swap
+    dig 1
+    ==
+    assert
+    // smart_contracts/marketplace/contract.py:133-134
+    // # Trasferisce tutti gli asset del contratto al proprietario
+    // contract_balance = Asset(asset_id).balance(Global.current_application_address)
+    global CurrentApplicationAddress
+    dig 3
+    asset_holding_get AssetBalance
+    assert // account opted into asset
+    // smart_contracts/marketplace/contract.py:139-145
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // itxn.AssetTransfer(
     //     xfer_asset=asset_id,
     //     asset_receiver=self.listings[asset_id].owner,
@@ -553,6 +825,7 @@ delist_remaining_assets:
     dig 1
     itxn_field AssetCloseTo
     itxn_field AssetAmount
+<<<<<<< HEAD
     dup
     itxn_field AssetReceiver
     uncover 3
@@ -566,6 +839,20 @@ delist_remaining_assets:
     intc_1 // 0
     itxn_field Fee
     // smart_contracts/marketplace/contract.py:141-147
+=======
+    itxn_field AssetReceiver
+    swap
+    itxn_field XferAsset
+    // smart_contracts/marketplace/contract.py:139
+    // itxn.AssetTransfer(
+    intc_3 // axfer
+    itxn_field TypeEnum
+    // smart_contracts/marketplace/contract.py:144
+    // fee=0,
+    intc_1 // 0
+    itxn_field Fee
+    // smart_contracts/marketplace/contract.py:139-145
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // itxn.AssetTransfer(
     //     xfer_asset=asset_id,
     //     asset_receiver=self.listings[asset_id].owner,
@@ -574,6 +861,7 @@ delist_remaining_assets:
     //     fee=0,
     // ).submit()
     itxn_submit
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:149-153
     // itxn.Payment(
     //     receiver=self.listings[asset_id].owner,
@@ -604,11 +892,18 @@ delist_remaining_assets:
     // ).submit()
     itxn_submit
     // smart_contracts/marketplace/contract.py:155-156
+=======
+    // smart_contracts/marketplace/contract.py:147-148
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Rimuoviamo il listing dalla BoxMap
     // del self.listings[asset_id]
     box_del
     pop
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:157-158
+=======
+    // smart_contracts/marketplace/contract.py:149-150
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Decrementiamo il contatore dei listing attivi
     // self.active_listings -= 1
     intc_1 // 0
@@ -620,7 +915,11 @@ delist_remaining_assets:
     bytec_0 // "active_listings"
     swap
     app_global_put
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:129
+=======
+    // smart_contracts/marketplace/contract.py:127
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // @arc4.abimethod
     intc_0 // 1
     return
@@ -628,14 +927,22 @@ delist_remaining_assets:
 
 // smart_contracts.marketplace.contract.Marketplace.delete_application[routing]() -> void:
 delete_application:
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:162-163
+=======
+    // smart_contracts/marketplace/contract.py:154-155
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Solo il creatore può eliminare l'applicazione
     // assert Txn.sender == Global.creator_address
     txn Sender
     global CreatorAddress
     ==
     assert
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:164-165
+=======
+    // smart_contracts/marketplace/contract.py:156-157
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // # Nessun listing attivo deve essere presente
     // assert self.active_listings == 0, "Active listings must be zero"
     intc_1 // 0
@@ -644,7 +951,11 @@ delete_application:
     assert // check self.active_listings exists
     !
     assert // Active listings must be zero
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:168-173
+=======
+    // smart_contracts/marketplace/contract.py:160-165
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // itxn.Payment(
     //     receiver=Global.creator_address,
     //     close_remainder_to=Global.creator_address,
@@ -652,6 +963,7 @@ delete_application:
     //     fee=0,
     // ).submit()
     itxn_begin
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:169
     // receiver=Global.creator_address,
     global CreatorAddress
@@ -659,11 +971,21 @@ delete_application:
     // close_remainder_to=Global.creator_address,
     dup
     // smart_contracts/marketplace/contract.py:171
+=======
+    // smart_contracts/marketplace/contract.py:161
+    // receiver=Global.creator_address,
+    global CreatorAddress
+    // smart_contracts/marketplace/contract.py:162
+    // close_remainder_to=Global.creator_address,
+    dup
+    // smart_contracts/marketplace/contract.py:163
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // amount=0,
     intc_1 // 0
     itxn_field Amount
     itxn_field CloseRemainderTo
     itxn_field Receiver
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:168
     // itxn.Payment(
     intc_0 // pay
@@ -673,6 +995,17 @@ delete_application:
     intc_1 // 0
     itxn_field Fee
     // smart_contracts/marketplace/contract.py:168-173
+=======
+    // smart_contracts/marketplace/contract.py:160
+    // itxn.Payment(
+    intc_0 // pay
+    itxn_field TypeEnum
+    // smart_contracts/marketplace/contract.py:164
+    // fee=0,
+    intc_1 // 0
+    itxn_field Fee
+    // smart_contracts/marketplace/contract.py:160-165
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // itxn.Payment(
     //     receiver=Global.creator_address,
     //     close_remainder_to=Global.creator_address,
@@ -680,7 +1013,11 @@ delete_application:
     //     fee=0,
     // ).submit()
     itxn_submit
+<<<<<<< HEAD
     // smart_contracts/marketplace/contract.py:160
+=======
+    // smart_contracts/marketplace/contract.py:152
+>>>>>>> 7b3a752eb3cb3a32fb77dab62645076e807b29fa
     // @arc4.abimethod(allow_actions=["DeleteApplication"])
     intc_0 // 1
     return
