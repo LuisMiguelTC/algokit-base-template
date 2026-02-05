@@ -96,7 +96,7 @@ class Marketplace(ARC4Contract):
         assert quantity > 0, "La quantità deve essere maggiore di zero"
         # Verifica la quantità disponibile degli asset richiesti.
         assert  Asset(asset_id).balance(Global.current_application_address) >= quantity
-        assert buyer_pay.sender == Txn.sendero
+        assert buyer_pay.sender == Txn.sender
         expected_amount = self.listings[asset_id].price * quantity
         # Il pagamento deve essere esattamente l'importo atteso.
         assert buyer_pay.amount == expected_amount
