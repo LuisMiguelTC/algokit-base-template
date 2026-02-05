@@ -16,9 +16,9 @@ from smart_contracts.artifacts.marketplace.marketplace_client import (
     MarketplaceFactory,
 )
 
-# La fixture creator crea un account creatore tramite il client Algorand e lo
-# finanzia con 10 ALGO (10_000_000 microALGO).
-# L'account creator e' colui che crea lo Smart Contract ossia il marketplace.
+# La fixture creator crea un account creatore tramite il client Algorand 
+# e lo finanzia. L'account creator e' colui che crea lo Smart Contract 
+# ossia il marketplace.
 @pytest.fixture(scope="session")
 def creator(algorand_client: AlgorandClient) -> SigningAccount:
     account = algorand_client.account.from_environment("CREATOR")
@@ -27,9 +27,9 @@ def creator(algorand_client: AlgorandClient) -> SigningAccount:
     )
     return account
 
-# La fixture seller crea un account venditore tramite il client Algorand e lo
-# finanzia con 10 ALGO (10_000_000 microALGO).
-# L'account seller è colui che mette in vendita gli asset nel marketplace.
+# La fixture seller crea un account venditore tramite il client Algorand 
+# e lo finanzia. L'account seller è colui che mette in vendita gli asset 
+# nel marketplace.
 @pytest.fixture(scope="session")
 def seller(algorand_client: AlgorandClient) -> SigningAccount:
     account = algorand_client.account.from_environment("SELLER")
@@ -38,9 +38,8 @@ def seller(algorand_client: AlgorandClient) -> SigningAccount:
     )
     return account
 
-# La fixture buyer crea un account compratore tramite il client Algorand e lo
-# finanzia con 10 ALGO (10_000_000 microALGO).
-# L'account buyer è colui che acquista gli asset dal marketplace.
+# La fixture buyer crea un account acquirente tramite il client Algorand 
+# e lo finanzia. L'account buyer è colui che acquista gli asset dal marketplace.
 @pytest.fixture(scope="session")
 def buyer(algorand_client: AlgorandClient) -> SigningAccount:
     account = algorand_client.account.from_environment("BUYER")
@@ -167,7 +166,7 @@ def test_deposit(
         )
     )
 
-    # Esegue il deposito dell'asset all'interno del marketplace.
+    # Esegue il controllo del deposito dell'asset all'interno del marketplace.
     result = marketplace_client.send.deposit_asset(
         args=(axfer_txn,),
         params=CommonAppCallParams(
@@ -188,7 +187,7 @@ def test_deposit(
     assert account_info.balance == deposit_quantity
 
 # Test utile per verificare l'acquisto di un asset dal marketplace e
-# il successivo trasferimento dell'asset al compratore.
+# il successivo trasferimento dell'asset all'acquirente.
 def test_buy_asset(
     algorand_client: AlgorandClient,
     marketplace_client: MarketplaceClient,
@@ -199,7 +198,7 @@ def test_buy_asset(
     # Definisce la quantità di asset da acquistare.
     quantity = 3
 
-    # Il compratore esegue l'opt-in dell'asset prima di acquistarlo.
+    # L'acquirente esegue l'opt-in dell'asset prima di acquistarlo.
     algorand_client.send.asset_opt_in(
         AssetOptInParams(
             sender=buyer.address,
@@ -207,7 +206,7 @@ def test_buy_asset(
         )
     )
 
-    # Crea una transazione di pagamento da parte del compratore
+    # Crea una transazione di pagamento da parte dell'acquirente
     # per l'importo totale dell'acquisto all'indirizzo dell'applicazione.
     buyer_txn = algorand_client.create_transaction.payment(
         PaymentParams(
@@ -227,14 +226,13 @@ def test_buy_asset(
         ),
     )
     
-    # Verifica che il compratore abbia ricevuto gli asset.
+    # Verifica che l'acquirente abbia ricevuto gli asset.
+    # Ritornerà la quantità esatta acquistata in quanto è
+    # il primo acquisto fatto dall'acquirente.
     account_info = algorand_client.asset.get_account_information(
         sender=buyer.address,
         asset_id=test_asset_id
     )
-
-    # Verifica che il bilancio del compratore sia aumentato della 
-    # quantità acquistata.
     current_amount = account_info.balance
     assert current_amount == quantity
 
@@ -255,20 +253,19 @@ def test_delist_asset(
         )
     )
 
-    # Verifica del bilancio finale del venditore (Seller):
+    # Verifica del bilancio finale del venditore:
     # 10 unità create dal seller
     # 5 Depositate nel marketplace -> Rimaste 5
     # Restituzione dei residui non venduti: 5 caricati - 3 acquistati = 2 
-    # Saldo Atteso: 5 + 2 = 7 unità
+    # Saldo Atteso: 5 + 2 = 7 unità.
     account_info = algorand_client.asset.get_account_information(
         seller.address,
         test_asset_id
     )
     assert account_info.balance == 7
 
-    # Verifica che il contratto non abbia più l'asset
-    # Poiché il contratto ha fatto il close-out, 
-    # l'interrogazione dell'asset deve fallire.
+    # Verifica che il contratto non abbia più l'asset. Poiché il contratto 
+    # ha fatto il close-out, l'interrogazione dell'asset deve fallire.
     with pytest.raises(Exception) as excinfo:
         algorand_client.asset.get_account_information(
             marketplace_client.app_address,
@@ -285,7 +282,7 @@ def test_cumulative_deposit(
     marketplace_client: MarketplaceClient,
     seller: SigningAccount,
     test_asset_id: int
-):
+):  
     # Crea una transazione di pagamento da parte del venditore
     # di 0.1 ALGO per la tassa di listing (Minimun Balance Requirement). 
     mbr_payment_relist = algorand_client.create_transaction.payment(
@@ -296,7 +293,7 @@ def test_cumulative_deposit(
         )
     )
     # L'asset non è più disponibile in quanto è stato fatto il delisting.
-    # Occorre fare nuovamente il listing dell'asset nel marketplace,
+    # Occorre fare il re-listing dell'asset nel marketplace,
     # necessario prima di poter depositare.
     marketplace_client.send.list_asset(
         args=(test_asset_id, 100_000, mbr_payment_relist),
@@ -365,7 +362,7 @@ def test_deposit_non_owner_fails(
 ):
     # Crea la transazione di trasferimento asset.
     # Trasferisce 1 asset da un account che non è il proprietario
-    # dell'asset nel marketplace.
+    # dell'asset (riferito alla box nel marketplace).
     axfer_txn = algorand_client.create_transaction.asset_transfer(
         AssetTransferParams(
             sender=buyer.address,
@@ -376,10 +373,10 @@ def test_deposit_non_owner_fails(
     )
 
     # Tenta di eseguire il deposito dell'asset nel marketplace.
-    # Questo dovrebbe fallire poiché il compratore non è il 
+    # Questo dovrebbe fallire poiché l'acquirente non è il 
     # proprietario dell'asset. 
     # La box presente nel marketplace riferito a quel asset ha 
-    # memorizzato come  proprietario dell'asset il venditore.
+    # memorizzato come proprietario dell'asset il venditore.
     with pytest.raises(Exception) as excinfo:
         marketplace_client.send.deposit_asset(
             args=(axfer_txn,),
@@ -458,7 +455,6 @@ def test_concurrency_race_condition(
         )
 
     # Prepara le due transazioni di acquisto.
-    # In un ambiente reale verrebbero inviate quasi in simultanea.
     def create_buy_txn(sender):
         return algorand_client.create_transaction.payment(
             PaymentParams(
@@ -478,7 +474,7 @@ def test_concurrency_race_condition(
     )
 
     # Il secondo acquisto deve fallire perché lo smart contract 
-    # vede che il bilancio box è 0.
+    # vede che il bilancio relativo all'asset è 0.
     with pytest.raises(Exception) as excinfo:
         marketplace_client.send.buy_asset(
             args=(test_asset_id, total_asset_marketplace, create_buy_txn(buyer2)),
@@ -499,7 +495,7 @@ def test_mass_listing_stress(
     seller: SigningAccount,
     mass_assets: list[int]
 ):
-    # Rifinanziamo il marketplace per gestire i listing
+    # Rifinanziamento del marketplace per gestire i listing.
     algorand_client.send.payment(
         PaymentParams(
             sender=creator.address,
@@ -526,8 +522,7 @@ def test_mass_listing_stress(
             )
         )
 
-# Test utile per verificare la procedura di smantellamento 
-# totale dello Smart Contract.
+# Test utile per verificare la procedura di chiusura dell'applicazione.
 # Assicura che l'applicazione possa essere eliminata solo dopo
 # aver effettuato il delisting di tutti gli asset residui,
 # garantendo che non rimangano asset pendenti che bloccherebbero
