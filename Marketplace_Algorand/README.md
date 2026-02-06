@@ -25,6 +25,7 @@ For a quick dive into the core logic of this marketplace, you can find the prima
 Smart Contract Logic: The main Tealish/Python contract code is located at: projects/Marketplace_Algorand/smart_contracts/marketplace/contract.py
 
 Testing Suite: The end-to-end tests and client logic are located at: projects/Marketplace_Algorand/tests/marketplace_client_test.py
+
 Powered by [Copier templates](https://copier.readthedocs.io/en/stable/).
 
 
